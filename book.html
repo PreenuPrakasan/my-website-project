@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book now</title>
+    <!-- external css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Faculty+Glyphic&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="book" class="container">
+
+        <div class="container-nav">
+            <div class="nav-icon">
+                <div id="nav-location" class="location">
+                    <a href="https://www.google.com/maps/place/Kitchener,+Ontario">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Kitchener, Ontario
+                    </a>
+                </div>
+                <div class="location">
+                    <a href="mailto:info@traventvacations.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        info@traventvacations.com
+                    </a>
+                </div>
+
+            </div>
+            <div class="icon">
+                <div class="icon-book">
+                    <a href="./book.html" target="_blank">Book Now</a>
+                </div>
+                <div class="icon-book">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="icon-book">
+                    <a href="https://x.com/?lang=en-ca" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="icon-book">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="icon-book">
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="booking-form">
+            <h1>BOOK YOUR DREAM VACATION NOW!</h1>
+            <form>
+                <div class="form-row">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <input type="tel" placeholder="Phone Number" required>
+                <div class="form-row">
+                    <input type="text" placeholder="Destination" required>
+                    <input type="date" placeholder="Travel Dates" required>
+                </div>
+                <input type="number" placeholder="Number of Travelers" required>
+                <select required>
+                    <option value="">Select a Package</option>
+                    <option value="basic">Basic Package</option>
+                    <option value="premium">Premium Package</option>
+                    <option value="custom">Custom Package</option>
+                </select>
+                <div class="checkbox-row">
+                    <label><input type="checkbox"> Insurance</label>
+                    <label><input type="checkbox"> Meals</label>
+                </div>
+                <textarea placeholder="Special Requests"></textarea>
+                <button type="submit">BOOK NOW</button>
+            </form>
+            <p class="help-text">Need help booking? Contact us at info@traventvacations.com or call (226) 222-2332</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
